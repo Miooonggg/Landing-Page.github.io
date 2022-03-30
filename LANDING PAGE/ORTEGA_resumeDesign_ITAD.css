@@ -1,0 +1,106 @@
+body{
+    background-color: #eeeeee;
+}
+h1.heading{
+    padding-top: 4%;
+    padding-bottom:0.1%;
+    background-image:linear-gradient(white,#ff8668);
+    text-align: center;
+    word-spacing: 6px;
+    font-family: "Lato";
+    border-style: solid;
+    border-width: 2.9px;
+}
+h2.subtopics{
+    text-align: justify;
+    font-family: "Lato";
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    color:#ff8668;
+}
+ul{
+    font-family: "Roboto Condensed";
+    text-align: left;
+    list-style-type: circle;
+}
+p{
+    font-family: "Roboto Condensed";
+    line-height: 1;
+}
+p.about-me{
+    font-family: "Roboto";
+    color: black;
+    font-size: 13px;
+}
+div{
+    line-height: 0.1;
+}
+hr.a{   
+    height: 0.1px;
+    background-color: black;
+    width: 19.4%;
+    border-style: solid;
+    border-color: black;
+    display: inline-block;
+}
+hr.b{
+    height: 0.1px;
+    background-color: black;
+    border-color: black;
+    border-style: solid;
+    width: 11%;
+    display: inline-block;
+}
+hr.c{
+    height: 0.1px;
+    background-color: black;
+    border-color: black;
+    border-style: solid;
+    width: 26%;   
+    display: inline-block;
+}
+hr.d{
+    height: 0.1px;
+    background-color: black;
+    border-color: black;
+    border-style: solid;
+    width: 35.8%;   
+    display: inline-block;
+}
+hr.e{
+    height: 0.1px;
+    background-color: black;
+    border-color: black;
+    border-style: solid;
+    width: 9%;   
+    display: inline-block;
+}
+.contacts{
+    text-align: right;
+    font-size: 15px;
+}
+img.picture{
+    width: 195px;
+    height: 200px;
+    border-radius: 50%;
+}
+.homepage{
+    padding:10px 20px;
+    border-radius: 5000px;
+    background: #ff8668;
+    color: white;
+    border:2px solid #ff8668;
+    font-size: 16px;
+    transition: all .2s ease-in-out;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.homepage:hover{
+    background-color: transparent;
+    border-color: #ff8668;
+    color: #ff8668;
+}
+a{
+    text-decoration: none;
+}

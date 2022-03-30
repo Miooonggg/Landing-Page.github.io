@@ -1,0 +1,102 @@
+
+body{
+    background-color: #eeeeee;
+}
+a.nav{
+    text-decoration: none;
+    font-family: Consolas;
+    font-size: 18px;
+    margin-left: 50px;
+    color: black;
+}
+a.nav:visited{
+    color: black;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+}
+.navigation ul{
+    display:flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navigation ul li{
+    list-style-type:none;
+    display: inline-block;
+}
+.navigation ul li a{
+    position: relative;
+    padding: 8px 25px;
+}
+.navigation ul li a:hover{
+    color:#ff8668;
+    position: relative;
+}
+.navigation ul li a:after{
+    content: "";
+    position: absolute;
+    left:0;
+    width: 0;
+    height: 3px;
+    background: #ff8668;
+    transition: .3s;
+    bottom: 0;
+}
+.navigation ul li a:hover:after{
+    width: 100%;
+}
+h2{
+    color: #B6B6B4;
+}
+b{
+    color: black;
+}
+pre{
+    font-size: 20px;
+}
+.im{
+    font-size: 50px;
+}
+b{
+    color:#ff8668;
+    font-family:consolas;
+}
+.profilepic{
+    height: 500px;
+    width: 480px;
+   float: right;
+   margin-right: 230px;
+   position: relative;
+   top: -360px;
+   box-shadow:  -12px -12px  #ff8668;
+}
+.fb{
+    height: 40px;
+    width: 40px;
+    margin-left: 307px;
+}
+.tw{
+    height: 40px;
+    width: 40px;
+    margin-left: 30px;
+}
+.ig{
+    height: 40px;
+    width: 40px;
+    margin-left: 30px;
+}
+.gm{
+    height: 40px;
+    width: 40px;
+    margin-left: 30px;
+}
+.desc{
+    word-spacing: 1px;
+    line-height: 25px;
+    margin-left: 308px;
+    font-family: Consolas;
+    font-size: 20px;
+}
